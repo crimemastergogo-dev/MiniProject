@@ -1,2 +1,3 @@
-say_hello:
-    @echo "Hello world"
+.RECIPEPREFIX = >
+all:
+> @echo `pwd`

@@ -18,10 +18,6 @@ else
     case ${args[0]} in
         "-AS")
             echo Generating FSM for Strict Alternating string
-            cd $PWD/../
-            #make clean
-            #make
-            cd $PWD/bin
             echo "--------------INITIATING FSM-----------------" 
             #./StrictAlternateSTring
             ;;
